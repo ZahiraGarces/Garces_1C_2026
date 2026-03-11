@@ -17,10 +17,13 @@
         },
         {
             "path": "./projects/x_template"
+        },
+        {
+            "path": "projects/guia1_ej2"
         }
     ],
     "settings": {
-        "idf.portWin": "COM14",
+        "idf.portWin": "COM4",
         "idf.flashBaudRate": "115200",
         "idf.flashType": "JTAG",
         "cmake.configureOnOpen": false,
