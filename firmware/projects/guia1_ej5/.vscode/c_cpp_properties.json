@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "name": "ESP-IDF",
+            "compilerPath": "C:\\Usuarios\\PC\\.espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\riscv32-esp-elf-gcc.exe",
+            "includePath": [
+                "${config:idf.espIdfPath}/components/**",
+                "${config:idf.espIdfPathWin}/components/**",
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/../../drivers/microcontroller/**",
+                "${workspaceFolder}/../../drivers/devices/**",
+                "C:/Repositorios/Garces_1C_2026/firmware/drivers/microcontroller/inc"
+            ],
+            "browse": {
+                "path": [
+                    "${config:idf.espIdfPath}/components",
+                    "${config:idf.espIdfPathWin}/components",
+                    "${workspaceFolder}/**",
+                    "${workspaceFolder}/../../drivers/microcontroller/**",
+                    "${workspaceFolder}/../../drivers/devices/**"
+                ],
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "compileCommands": [
+                "${workspaceFolder}/build/compile_commands.json"
+            ]
+        }
+    ],
+    "version": 4
+}
